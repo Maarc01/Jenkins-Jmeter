@@ -19,7 +19,7 @@
         stage ('Run Jmeter Docker') {
             steps {
 				script{
-                bat 'docker run -t -v D:\DevOps\Jenkins\Jenkins-Jmeter:/data script-image:latest orange123.jmx'
+                bat 'docker run -t -v D:\\DevOps\\Jenkins\\Jenkins-Jmeter:/data script-image:latest orange123.jmx'
 				}
 			}
         }

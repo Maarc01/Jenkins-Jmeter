@@ -16,6 +16,7 @@
             }
         }
 		
+		Stage ('Test'){
 		parallel{
 		
 		stage ('Run Jmeter Docker') {
@@ -33,6 +34,7 @@
 				}
 				}
 		
+		}
 		}
 		}
 	}

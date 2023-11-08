@@ -22,31 +22,23 @@
 		steps{
 			script {
 					if (true) {
-					stage ('Run Jmeter Docker') {
-            steps {
-				script{
                 bat 'docker run -t -v D:\\DevOps\\Jenkins\\Jenkins-Jmeter:/data script-image:latest %ImageName%'
-				}
+				
+
+					}
 			}
-        }
-			stage ('Run Docker 2'){
-			steps {
-				script {
+			
+			else {
+
 					bat 'docker run -t -v D:\\DevOps\\Jenkins\\Jenkins-Jmeter:/data python-image %ImageName%'
-				}
+
 			}
 		
 		}	
 		
 			}
 		}
-		
-		
-
 		}
-	}
-		}
-  }
 
 	//     post {
     //     always {

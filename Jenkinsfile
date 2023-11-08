@@ -99,9 +99,7 @@ stages {
                      }
             }
         }
-
-stages {
-
+			
 	if (selectedPipeline == 'main-job-1') {
 
 stage('Main Pipeline') {
@@ -138,7 +136,6 @@ stage ('Run Docker 2'){
 		}
 
 } 
-	}
 	}
 	}
 	}

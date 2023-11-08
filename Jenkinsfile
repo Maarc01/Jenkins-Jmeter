@@ -12,7 +12,7 @@
             steps {
                 script {
 				bat 'docker build -t script-image ./'
-				bat 'dockerb build -t python-image ./'
+				bat 'docker build -t python-image ./'
                      }
             }
         }

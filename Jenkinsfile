@@ -23,10 +23,8 @@
 			script {
 					if (true) {
                 bat 'docker run -t -v D:\\DevOps\\Jenkins\\Jenkins-Jmeter:/data script-image:latest %ImageName%'
-				
-
 					}
-			}
+			
 			
 			else {
 
@@ -39,7 +37,7 @@
 			}
 		}
 		}
-
+  }
 	//     post {
     //     always {
     //         cleanWs()

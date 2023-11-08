@@ -31,7 +31,7 @@
 		stage ('Run Docker 2'){
 			steps {
 				script {
-					bat 'docker run -t -v D:\\DevOps\\Jenkins\\Jenkins-Jmeter:/data python-image'
+					bat 'docker run -t -v D:\\DevOps\\Jenkins\\Jenkins-Jmeter:/data python-image %ImageName%'
 				}
 			}
 		

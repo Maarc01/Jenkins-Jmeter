@@ -1,7 +1,7 @@
-2023-11-08 10:55:44,637 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2023-11-08 10:55:44,667 INFO o.a.j.JMeter: Loading user properties from: /test/apache-jmeter-5.6.2/bin/user.properties
-2023-11-08 10:55:44,668 INFO o.a.j.JMeter: Loading system properties from: /test/apache-jmeter-5.6.2/bin/system.properties
-2023-11-08 10:55:44,670 ERROR o.a.j.JMeter: An error occurred: 
+2023-11-08 10:58:48,102 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-11-08 10:58:48,121 INFO o.a.j.JMeter: Loading user properties from: /test/apache-jmeter-5.6.2/bin/user.properties
+2023-11-08 10:58:48,122 INFO o.a.j.JMeter: Loading system properties from: /test/apache-jmeter-5.6.2/bin/system.properties
+2023-11-08 10:58:48,123 ERROR o.a.j.JMeter: An error occurred: 
 java.lang.IllegalArgumentException: Unknown arg: /data/result.csv
 	at org.apache.jmeter.JMeter.initializeProperties(JMeter.java:796) ~[ApacheJMeter_core.jar:5.6.2]
 	at org.apache.jmeter.JMeter.start(JMeter.java:379) [ApacheJMeter_core.jar:5.6.2]

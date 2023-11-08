@@ -1,4 +1,4 @@
- pipeline {
+  pipeline {
 
      agent any
 		
@@ -19,7 +19,7 @@
         stage ('Run Jmeter Docker') {
             steps {
 				script{
-                bat 'docker run -t -v D:\\DevOps\\Jenkins\\Jenkins-Jmeter:/data script-image:latest ${imageName}'
+                bat 'docker run -t -v D:\\DevOps\\Jenkins\\Jenkins-Jmeter:/data script-image:latest %ImageName%'
 				}
 			}
         }

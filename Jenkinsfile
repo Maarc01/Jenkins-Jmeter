@@ -137,9 +137,11 @@ stage ('Run Docker 2'){
 		
 		}
 
-} else {
+} 
 
-error "Invalid pipeline selection:
+else {
+
+echo 'Invalid pipeline selection:'
 
 ${selectedPipeline}"
 

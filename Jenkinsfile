@@ -39,4 +39,12 @@
 		}
 		}
 	}
+
+	    post {
+        always {
+            cleanWs()
+			bat 'docker prune --all -y'
+        }
+    }   
+
 	}

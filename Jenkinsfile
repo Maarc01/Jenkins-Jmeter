@@ -16,7 +16,7 @@
             }
         }
 		
-		Stage ('Test'){
+		stage ('Test'){
 		parallel{
 		
 		stage ('Run Jmeter Docker') {
@@ -32,7 +32,7 @@
 				script {
 					bat 'docker run -t -v D:\\DevOps\\Jenkins\\DevOps:/data python-image'
 				}
-				}
+			}
 		
 		}
 		}

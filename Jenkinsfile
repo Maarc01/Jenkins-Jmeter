@@ -21,7 +21,7 @@
 
 		steps{
 			script {
-					if (true) }
+					if (true) {
 					stage ('Run Jmeter Docker') {
             steps {
 				script{
@@ -45,6 +45,8 @@
 
 		}
 	}
+		}
+  }
 
 	//     post {
     //     always {

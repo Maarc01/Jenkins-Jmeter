@@ -1,0 +1,121 @@
+2023-11-07 14:18:10,686 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-11-07 14:18:10,704 INFO o.a.j.JMeter: Loading user properties from: /test/apache-jmeter-5.6.2/bin/user.properties
+2023-11-07 14:18:10,706 INFO o.a.j.JMeter: Loading system properties from: /test/apache-jmeter-5.6.2/bin/system.properties
+2023-11-07 14:18:10,714 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2023-11-07 14:18:10,714 INFO o.a.j.JMeter: Version 5.6.2
+2023-11-07 14:18:10,715 INFO o.a.j.JMeter: java.version=1.8.0_392
+2023-11-07 14:18:10,716 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2023-11-07 14:18:10,717 INFO o.a.j.JMeter: os.name=Linux
+2023-11-07 14:18:10,718 INFO o.a.j.JMeter: os.arch=amd64
+2023-11-07 14:18:10,719 INFO o.a.j.JMeter: os.version=5.15.90.1-microsoft-standard-WSL2
+2023-11-07 14:18:10,719 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-11-07 14:18:10,720 INFO o.a.j.JMeter: java.awt.headless=true
+2023-11-07 14:18:10,721 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-11-07 14:18:10,721 INFO o.a.j.JMeter: Available Processors =12
+2023-11-07 14:18:10,727 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-11-07 14:18:10,728 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-11-07 14:18:10,729 INFO o.a.j.JMeter: JMeterHome=/test/apache-jmeter-5.6.2
+2023-11-07 14:18:10,730 INFO o.a.j.JMeter: user.dir  =/test
+2023-11-07 14:18:10,731 INFO o.a.j.JMeter: PWD       =/test
+2023-11-07 14:18:10,732 INFO o.a.j.JMeter: IP: 172.17.0.3 Name: 6624c2f70081 FullName: 6624c2f70081
+2023-11-07 14:18:10,751 INFO o.a.j.s.FileServer: Default base='/test'
+2023-11-07 14:18:10,754 INFO o.a.j.s.FileServer: Set new base='/test'
+2023-11-07 14:18:10,900 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-11-07 14:18:10,920 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-11-07 14:18:10,925 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-11-07 14:18:10,933 INFO o.a.j.s.SaveService: Loading file: orange123.jmx
+2023-11-07 14:18:10,974 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2023-11-07 14:18:11,019 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-11-07 14:18:11,020 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-11-07 14:18:11,021 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-11-07 14:18:11,022 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-11-07 14:18:11,023 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-11-07 14:18:11,024 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-11-07 14:18:11,492 INFO o.a.j.JMeter: Creating summariser <summary>
+2023-11-07 14:18:11,514 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-11-07 14:18:11,516 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-11-07 14:18:11,517 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-11-07 14:18:11,529 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-11-07 14:18:11,530 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-11-07 14:18:12,079 INFO o.a.j.r.ClassFinder: Will scan jar /test/apache-jmeter-5.6.2/lib/ext/tag-jmeter-extn-1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-11-07 14:18:12,087 INFO o.a.j.r.ClassFinder: Will scan jar /test/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-11-07 14:18:14,008 INFO o.a.j.r.ClassFinder: Will scan jar /test/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-11-07 14:18:14,310 INFO o.a.j.JMeter: Running test (1699366694310)
+2023-11-07 14:18:14,525 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2023-11-07 14:18:14,531 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group jp@gc - Ultimate Thread Group.
+2023-11-07 14:18:14,535 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-11-07 14:18:14,541 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 5
+2023-11-07 14:18:14,617 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-11-07 14:18:14,625 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2023-11-07 14:18:14,628 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-11-07 14:18:14,631 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-11-07 14:18:14,672 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2023-11-07 14:18:14,677 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-11-07 14:18:16,543 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-5
+2023-11-07 14:18:16,550 INFO o.a.j.s.FileServer: Stored: Users_Orange.csv
+2023-11-07 14:18:16,664 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 6624c2f70081
+2023-11-07 14:18:16,689 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-11-07 14:18:16,980 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-11-07 14:18:17,000 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-11-07 14:18:17,003 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-11-07 14:18:17,276 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-11-07 14:18:17,295 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-11-07 14:18:17,300 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-11-07 14:18:18,543 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-4
+2023-11-07 14:18:20,543 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-3
+2023-11-07 14:18:22,543 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-2
+2023-11-07 14:18:24,543 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2023-11-07 14:18:39,562 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:18:39,905 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:18:41,402 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:18:41,729 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:18:42,060 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:18:44,032 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:18:44,083 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:18:45,547 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:18:46,132 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:18:47,772 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:18:55,716 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:18:55,836 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:18:58,032 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:00,494 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:01,148 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:01,275 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:01,641 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:03,569 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:03,614 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:03,663 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:05,393 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:05,885 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:07,312 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:07,763 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:09,196 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:16,729 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:17,863 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:18,414 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:21,542 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:21,626 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:22,153 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:23,294 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:23,838 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:23,958 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:25,126 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:25,839 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:26,666 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-5
+2023-11-07 14:19:26,668 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-5
+2023-11-07 14:19:27,068 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:27,119 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:28,647 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-4
+2023-11-07 14:19:28,648 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-4
+2023-11-07 14:19:28,937 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:29,021 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2023-11-07 14:19:30,625 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-3
+2023-11-07 14:19:30,629 INFO o.a.j.r.Summariser: summary +      3 in 00:01:16 =    0.0/s Avg:  3671 Min:  1540 Max:  4786 Err:     0 (0.00%) Active: 3 Started: 5 Finished: 2
+2023-11-07 14:19:30,630 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-3
+2023-11-07 14:19:32,551 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-2
+2023-11-07 14:19:32,552 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-2
+2023-11-07 14:19:33,962 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2023-11-07 14:19:33,964 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-11-07 14:19:33,964 INFO o.a.j.s.FileServer: Close: Users_Orange.csv
+2023-11-07 14:19:33,968 INFO o.a.j.r.Summariser: summary +      1 in 00:00:03 =    0.3/s Avg:  3530 Min:  3530 Max:  3530 Err:     0 (0.00%) Active: 0 Started: 5 Finished: 5
+2023-11-07 14:19:33,969 INFO o.a.j.r.Summariser: summary =      4 in 00:01:20 =    0.1/s Avg:  3636 Min:  1540 Max:  4786 Err:     0 (0.00%)

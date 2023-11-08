@@ -43,7 +43,7 @@
 	    post {
         always {
             cleanWs()
-			bat 'docker system prune --all -y'
+			bat 'docker system prune --all -f'
         }
     }   
 

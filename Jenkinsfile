@@ -15,8 +15,10 @@
                      }
             }
         }
-      
-        stage ('Run Jmeter Docker') {
+		
+		parallel{
+		
+		stage ('Run Jmeter Docker') {
             steps {
 				script{
                 bat 'docker run -t -v D:\\DevOps\\Jenkins\\Jenkins-Jmeter:/data script-image:latest %ImageName%'
@@ -24,5 +26,14 @@
 			}
         }
 		
+		stage ('Run Docker 2'){
+			steps {
+				script {
+					bat 'docker run -t -v D:\\DevOps\\Jenkins\\DevOps:/data python-image'
+				}
+				}
+		
 		}
+		}
+	}
 	}
